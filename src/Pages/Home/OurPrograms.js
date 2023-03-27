@@ -13,25 +13,25 @@ const OurPrograms = () => {
 
             <div className='grid grid-cols-2 justify-center items-center mt-16 mx-auto max-w-6xl'>
                 <div className='mx-auto flex flex-col justify-start items-center'>
-                    <img src={pregnancy} alt="" className='h-40 w-40' />
+                    <img src={pregnancy} alt="" className='h-80 w-80' />
                     <h1 className='text-lg font-medium'>Healthy Pregnancy</h1>
                     <p className='max-w-xs text-center mt-2'>Make sure of good health for both mother and children</p>
                     <button className='px-4 py-1 rounded-lg mt-7 hover:bg-cyan-600 bg-cyan-400 text-white'>Learn More</button>
                 </div>
                 <div className='mx-auto flex flex-col justify-start items-center'>
-                    <img src={weightLoss} alt="" className='h-40 w-40' />
+                    <img src={weightLoss} alt="" className='h-80 w-80' />
                     <h1 className='text-lg font-medium'>Weight Loss</h1>
                     <p className='max-w-xs text-center mt-2'>Proper exercise guidance to loose extra weight </p>
                     <button className='px-4 py-1 rounded-lg mt-7 hover:bg-cyan-600 bg-cyan-400 text-white'>Learn More</button>
                 </div>
                 <div className='mx-auto flex flex-col justify-start items-center'>
-                    <img src={thyroid} alt="" className='h-40 w-40' />
+                    <img src={thyroid} alt="" className='h-80 w-80' />
                     <h1 className='text-lg font-medium'>Thyroid</h1>
                     <p className='max-w-xs text-center mt-2'>Checkup programs and diet tips for preventing thyroid diseases</p>
                     <button className='px-4 py-1 rounded-lg mt-7 hover:bg-cyan-600 bg-cyan-400 text-white'>Learn More</button>
                 </div>
                 <div className='mx-auto flex flex-col justify-start items-center'>
-                    <img src={menopose} alt="" className='h-40 w-40' />
+                    <img src={menopose} alt="" className='h-80 w-80' />
                     <h1 className='text-lg font-medium'>Menupase</h1>
                     <p className='max-w-xs text-center mt-2'>Proper exercise and diet guidance to prevent early menupose in women</p>
                     <button className='px-4 py-1 rounded-lg mt-7 hover:bg-cyan-600 bg-cyan-400 text-white'>Learn More</button>

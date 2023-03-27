@@ -1,7 +1,14 @@
 import React from 'react';
 import banner from '../../Assets/Banner/mattia-faloretti-jbrR_ESWK2A-unsplash.jpg';
+import Carousel from './Carousel/Carousel';
+import Elements from './Carousel/Elements';
+import Clients from './Clients';
+import Footer from './Footer';
+import HowProgramWorks from './HowProgramWorks';
 import HowWeDo from './HowWeDo';
+import MobileApp from './MobileApp';
 import OurPrograms from './OurPrograms';
+import Team from './Team';
 
 const Home = () => {
     return (
@@ -25,6 +32,25 @@ const Home = () => {
             <div>
                 <HowWeDo />
             </div>
+
+            <div>
+                <Clients />
+            </div>
+            <div className='mt-[550px]'>
+                <HowProgramWorks />
+            </div>
+
+            {/* <Elements /> */}
+
+            <Carousel />
+
+            <Team />
+
+            <div>
+                <MobileApp />
+            </div>
+
+            <Footer />
         </div>
     );
 };
